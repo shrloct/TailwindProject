@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styling Dasar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="bg-blue-500 text-white text-center p-4">
+      <h1>Ini adalah Header</h1>
+    </header>
+
+    <!-- section -->
+    <section class="w-full grid grid-cols-1 md:grid-cols-4 gap-6 p-6">
+      <div class="md:col-span-1">
+        <img
+          src="path-to-image.jpg"
+          alt="Gambar"
+          class="w-full h-auto rounded-lg shadow-md"
+        />
+      </div>
+      <div class="md:col-span-3 flex flex-col justify-center space-y-4">
+        <h2 class="text-2xl font-bold">Judul Section</h2>
+        <p class="text-lg">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum.
+        </p>
+        <p class="text-lg">
+          Cras venenatis euismod malesuada. Sed dignissim libero ut quam
+          iaculis, vel pharetra ligula interdum.
+        </p>
+      </div>
+    </section>
+
+    <!-- tombol button -->
+    <button class="bg-blue-400 text-white py-2 px-4 rounded hover:bg-blue-900">
+      Button
+    </button>
+  </body>
+</html>

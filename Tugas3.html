@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout Sederhana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="bg-blue-600 text-white flex items-center justify-between p-4 fixed w-full top-0 left-0 z-50"
+    >
+      <div class="flex font-bold text-3xl items-center">IT</div>
+      <ul class="flex space-x-4">
+        <li><a href="#" class="hover:text-gray-300">Home</a></li>
+        <li><a href="#" class="hover:text-gray-300">Learn</a></li>
+        <li><a href="#" class="hover:text-gray-300">Practice</a></li>
+        <li><a href="#" class="hover:text-gray-300">About</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-[300px] bg-cover bg-center">
+      <div
+        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center"
+      >
+        <h3 class="text-white text-2xl md:text-4xl font-bold text-center">
+          Pembelajaran Bahasa Pemograman
+        </h3>
+      </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="p-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h2 class="text-xl font-semibold mb-2">Dasar-dasar HTML</h2>
+          <p>
+            Mempelajari konsep dasar HTML, struktur elemen, dan cara membuat
+            markup yang efektif untuk halaman web.
+          </p>
+          <a href="#" class="text-blue-500 hover:underline"
+            >Baca Selengkapnya</a
+          >
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h2 class="text-xl font-semibold mb-2">
+            Mempelajari CSS: Styling dan Layout
+          </h2>
+          <p>
+            Mempelajari teknik-teknik CSS untuk mendesain dan mengatur tata
+            letak halaman web dengan gaya yang cantik.
+          </p>
+          <a href="#" class="text-blue-500 hover:underline"
+            >Baca Selengkapnya</a
+          >
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h2 class="text-xl font-semibold mb-2">JavaScript untuk Pemula</h2>
+          <p>
+            Mempelajari dasar-dasar JavaScript, termasuk cara penerapan ke
+            halaman web.
+          </p>
+          <a href="#" class="text-blue-500 hover:underline"
+            >Baca Selengkapnya</a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
